@@ -4,7 +4,7 @@ import { TextField, MenuItem, Box, Typography } from "@mui/material";
 const Muiselect = () => {
   const [dep, setDepartment] = useState([]);
   return (
-    <Box width="300px">
+    <Box width="400px">
       <TextField
         label="Select Department"
         select
